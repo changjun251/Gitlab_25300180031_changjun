@@ -7,8 +7,24 @@ Due: 30 Sep, 23:59:59
 1. 认真阅读[文档](https://ics-26fall-fdu.github.io/labs/lab0-git-lab/)，学习 Git 的基本用法，并在报告中回答文档中的问题。（15 分）
 
     - 你之前有过多人协同开发的经历吗？如果有，你们是使用什么方式分工协作的？
+    - 有过：1月的数学建模美赛，使用的是微信文件传输；
+    - 9月的数学建模美赛，使用的是VScode+GitHub，大部分时候使用vscode里面的push和pull就可以完成大部分协作任务，但是仍然需要及时沟通，否则容易出现不同人commit的更改冲突。
     - 思考一下，Git 为什么要设计“暂存-提交”两个步骤？
     - `git branch` 和 `git branch -a` 的区别是什么？查阅资料并回答。
+    - 前者只查看本地分支；后者包括本地分支和远程分支。也就是说，加上 -a（即 --all）选项后，会列出本地分支和远程跟踪分支。
+    - 例如：我自己实验中使用这两个指令：
+    - PS C:\Users\crmin\OneDrive\test-git> git branch -a
+  dev
+  dev2
+* main
+  remotes/origin/main
+  说明带上-a的结尾可以查到已经publish的远程分支。
+PS C:\Users\crmin\OneDrive\test-git> git branch
+  dev
+  dev2
+* main
+    - （另外，还有一个-r（即--remotes）远程分支，只列出远程跟踪分支。）
+    - 
 
 2. 使用此仓库建立个人仓库，完成 `main.c` 文件中的 `TODO` 部分并进行一次 commit。（50 分）
 
