@@ -3,11 +3,15 @@
 int main()
 {
     // @TODO: print a sentence you want.
-    printf("This is my hw.Cheer up!");
+    printf("This is my hw.Cheer up!\n");
     printf("Hello, world!\n");
 
     
-    printf("This is another modification on Linux,9.28.");
-    printf("This is a change of the new version.");
-    printf("Yeh! A newer version.");
+    printf("This is another modification on Linux,9.28.\n");
+    printf("This is a change of the new version.\n");
+    printf("Yeh! A newer version.\n");
+
+    int a;
+    scanf("%d", &a);
+    printf("a:%d", a);
 }
