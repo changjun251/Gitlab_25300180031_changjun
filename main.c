@@ -7,6 +7,7 @@ int main()
     printf("Hello, world!\n");
 
     
+    printf("This is another modification on Linux,9.28.");
     printf("This is a change of the new version.");
     printf("Yeh! A newer version.");
 }
