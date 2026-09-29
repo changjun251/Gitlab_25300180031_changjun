@@ -70,6 +70,15 @@ Due: 30 Sep, 23:59:59
     - [Commit Message 规范](https://www.ruanyifeng.com/blog/2016/01/commit_message_change_log.html)
     - [Git Flow 分支控制](https://www.dafaycoding.com/article/git-gif-flow)
     - [语义化版本](https://semver.org/lang/zh-CN/)
+      我选择的是前两个网站。
+      网站一内容概括：
+    对“为什么要学习 Git”这个问题的理解：
+   1. 为团队协作和中大型项目打好基础：中大型项目往往多人同时开发，如果没有分支管理和版本控制，一个人的改动可能覆盖另一个人的工作，线上出 Bug 也无法快速修补。Git Flow 通过 feature、release、hotfix 等分支划分，让并行开发互不干扰，测试和发布各有独立通道，主分支始终稳定。学 Git 就是学这套协作秩序，知道怎么在团队里安全地加功能、修bug。
+
+    2. 提升沟通效率，降低协作成本：格式规范的 message 让任何人通过 `git log` 就能快速了解某次提交的目的，也能按类型过滤提交记录。更重要的是，规范的提交可以直接生成 Change log，发版时不用人工整理各个版本的更新文档，直接git生成即可，大幅增加效率。
+    3. Git 是开发者回溯之前版本的关键工具：例如开发者发现新版本跑不起来，Git 让他随时回退到可运行的历史版本；想试一个新功能又怕搞坏现有代码，他就可以从 develop 切一个 feature 分支去尝试，主分支毫发无损。这种安全试错的能力，让开发者敢于重构、敢于探索，而不是因为害怕破坏而束手束脚。
+
+      
 
 5. 学习 Git 分支管理，新建 `feature` 分支，在该分支以及 `main` 分支上对 `main.c` 分别进行一次修改与提交（10 分）。随后将 `feature` 分支 merge 到 `main` 分支（即切换回 main 分支执行 `git merge feature`），并处理发生的合并冲突（10 分）。
 
