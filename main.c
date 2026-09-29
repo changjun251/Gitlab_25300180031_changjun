@@ -1,5 +1,7 @@
 #include <stdio.h>
-
+int oper(int a, int b){
+    return a * b;
+}
 int main()
 {
     // @TODO: print a sentence you want.
