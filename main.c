@@ -1,7 +1,10 @@
 #include <stdio.h>
-int oper(int a, int b){
-    return a * b;
+int oper(int a, int b)
+{
+    return a+b;
 }
+
+
 int main()
 {
     // @TODO: print a sentence you want.
@@ -16,4 +19,9 @@ int main()
     int a;
     scanf("%d", &a);
     printf("a:%d", a);
+
+    int b,c;
+    scanf("%d %d", &b, &c);
+    printf("b+c:%d", b + c); 
+
 }
