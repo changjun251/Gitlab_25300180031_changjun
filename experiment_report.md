@@ -96,6 +96,10 @@ Due: 30 Sep, 23:59:59
   
     - 1 对两个分支的分别修改和提交已经完成。
     - 2 已经进行了feature到main的合并，并且发生了冲突，合并了冲突。图片在experiment_report_picture.pdf中。
+  
+    - 具体流程：
+    - Main branch中main.c的内容（oper表示乘法）
+    - 
 
 6. 在 `main` 分支提交一份实验报告（实验报告单独评分），格式要求为 `PDF` 或 `Markdown`。内容包括：
 
